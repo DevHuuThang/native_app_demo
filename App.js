@@ -31,7 +31,7 @@ function DetailsScreen({route, navigation}) {
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>Details Screen {JSON.stringify(itemId)}</Text>
 
-      {/* <Button
+      {/* <Buttonth
         title="Go back"
         onPress={() =>
           navigation.push('Details', {
@@ -52,7 +52,7 @@ function CreatePostScreen({navigation, route}) {
     <View>
       <TextInput
         multiline
-        value={postText}
+        value={postText}  
         placeholder="What is on your mind ?"
         style={{height: 200, padding: 20, backgroundColor: 'white'}}
         onChangeText={setPostText}
