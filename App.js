@@ -52,7 +52,7 @@ function CreatePostScreen({navigation, route}) {
     <View>
       <TextInput
         multiline
-        value={postText}  
+        value={postText}
         placeholder="What is on your mind ?"
         style={{height: 200, padding: 20, backgroundColor: 'white'}}
         onChangeText={setPostText}
